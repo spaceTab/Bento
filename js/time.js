@@ -33,8 +33,8 @@ function displayClock() {
   
     document.getElementById('hour').innerText = hh;
     document.getElementById('separator').innerHTML = ' : ';
-    document.getElementById('minutes').innerText = min + ampm;
-
+    document.getElementById('minutes').innerText = min; // + ampm;
+    document.getElementById('ampm').innerText = ampm;  // added to fix small window size bug 
     document.getElementById('month').innerText = mm;
     document.getElementById('day').innerText = dd;
 

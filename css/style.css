@@ -163,6 +163,11 @@ body {
     font-weight: bolder;
     color: var(--fg);
 }
+#ampm {
+  font-size: var(--fss);
+  font-weight: bold;
+  color: var(--fg);
+}
 
 #month,
 #day {

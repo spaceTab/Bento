@@ -172,7 +172,13 @@ body {
 #minutes {
     font-size: var(--fsg);
     font-weight: bolder;
-    color: var(--fg);
+    color: var(--fg)
+  }
+
+#ampm {
+  font-size: var(--fsm);
+  font-weight: bold;
+  color: var(--fg)
 }
 
 #month,
